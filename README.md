@@ -1,36 +1,117 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kasradash Dashboard
+
+A modern dashboard application built with Next.js, TypeScript, Tailwind CSS, and Radix UI components.
+
+## Project Structure
+
+```
+.
+├── components.json
+├── package.json
+├── postcss.config.mjs
+├── tailwind.config.ts
+├── tsconfig.json
+├── public/
+│   ├── file.svg
+│   ├── globe.svg
+│   ├── next.svg
+│   ├── vercel.svg
+│   └── window.svg
+├── src/
+│   ├── app/
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   ├── (auth)/
+│   │   ├── dashboard/
+│   │   ├── mock/
+│   │   └── profile/
+│   ├── components/
+│   │   ├── app-sidebar.tsx
+│   │   ├── chart-area-interactive.tsx
+│   │   ├── data-table.tsx
+│   │   ├── nav-documents.tsx
+│   │   ├── nav-main.tsx
+│   │   ├── nav-secondary.tsx
+│   │   ├── nav-user.tsx
+│   │   └── ...
+│   ├── hooks/
+│   ├── lib/
+│   ├── locales/
+│   └── stores/
+└── ...
+```
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
+- [Node.js](https://nodejs.org/) (v18 or newer recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```sh
+   git clone git@github.com:KhanhNgocNe/kasradash.git
+   cd kasradash
+   ```
+
+2. **Install dependencies:**
+   ```sh
+   npm install --force
+   # or
+   yarn install --force
+   ```
+
+### Running the Project
+
+To start the development server:
+
+```sh
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The app will be available at [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Building for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To build the project for production:
 
-## Learn More
+```sh
+npm run build
+# or
+yarn build
+```
 
-To learn more about Next.js, take a look at the following resources:
+To start the production server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```sh
+npm start
+# or
+yarn start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Features
 
-## Deploy on Vercel
+- **Modern UI:** Built with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/), and [Radix UI](https://www.radix-ui.com/).
+- **TypeScript:** Type-safe codebase.
+- **Internationalization:** Multi-language support using `react-i18next`.
+- **Responsive Design:** Works on desktop and mobile.
+- **Component-based:** Reusable UI components in `src/components`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Customization
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Theme:** Easily switch between light, dark, and system themes.
+- **Sidebar:** Collapsible sidebar with customizable navigation.
+- **Localization:** Add new languages in `src/locales/`.
+
+## License
+
+This project is licensed under the MIT License.
+
+---
