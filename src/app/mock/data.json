@@ -1,0 +1,42 @@
+{
+  "reportPost": [
+    {
+      "title": "Spam Links in Comments",
+      "content": "This post contains multiple spam links to unrelated websites.",
+      "date": "2025-05-15"
+    },
+    {
+      "title": "Inappropriate Language",
+      "content": "The user used offensive and inappropriate language in this post.",
+      "date": "2025-05-18"
+    },
+    {
+      "title": "Fake Information",
+      "content": "This post shares misleading or false information regarding a health topic.",
+      "date": "2025-05-19"
+    },
+    {
+      "title": "Harassment",
+      "content": "The post is targeting another user with harassing and threatening comments.",
+      "date": "2025-05-20"
+    }
+  ],
+
+  "pendingSuppliers":[
+    {
+      "name": "Supplier A",
+      "registeredDate": "2025-05-15",
+      "status": "pending"
+    },
+    {
+      "name": "Supplier B",
+      "registeredDate": "2025-05-18",
+      "status": "pending"
+    }
+  ],
+  
+   "pendingEvents":[
+    { "name": "Event A", "registeredDate": "2025-05-15", "status": "pending" },
+    { "name": "Event B", "registeredDate": "2025-05-18", "status": "pending" }
+  ]
+}

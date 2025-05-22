@@ -1,0 +1,11 @@
+{
+  "name": "Name",
+  "birthday": "Birthday",
+  "updateProfile": "Update Profile",
+  "password": "Password",
+  "validName": "Enter your name, please",
+  "validEmail": "Enter your email, please",
+  "formatEmail": "Format email is invalid",
+  "validPassword": "Enter your password, please",
+  "validBirthday": "Format birthday is invalid"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Tên",
+  "birthday": "Ngày sinh",
+  "updateProfile": "Cập nhật hồ sơ",
+  "password": "Mật khẩu",
+  "validName": "Vui lòng nhập tên của bạn",
+  "validEmail": "Vui lòng nhập email của bạn",
+  "formatEmail": "Định dạng email không hợp lệ",
+  "validPassword": "Vui lòng nhập mật khẩu của bạn",
+  "validBirthday": "Định dạng ngày sinh không hợp lệ"
+}
