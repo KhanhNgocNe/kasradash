@@ -27,15 +27,15 @@ import { CalendarIcon } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 const accountFormSchema = z.object({
-  name: z.string().min(0, {
+  name: z.string().min(1, {
     message: "Enter your name, please!",
   }),
-  password: z.string().min(0, {
+  password: z.string().min(1, {
     message: "Enter your name, please!",
   }),
   email: z
     .string()
-    .min(0, {
+    .min(1, {
       message: "Enter your email, please!",
     })
     .email("Format email is invalid"),
