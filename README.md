@@ -1,4 +1,3 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
@@ -6,31 +5,64 @@ First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Dashboard UI with Next.js and Shadcn
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+A modern, responsive dashboard interface built with Next.js featuring Shadcn UI components, form validation, and dark mode toggle.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+![Dashboard Preview](https://i.imgur.com/placeholder.png) *(optional: add actual screenshot)*
 
-## Learn More
+## ✨ Features
 
-To learn more about Next.js, take a look at the following resources:
+- **Dashboard Page**
+  - Data card with mock statistics
+  - Interactive modal dialog
+  - Fully responsive layout
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Settings Popup**
+  - Language
+  - Dark/light mode toggle
+- **Profile Page**
+  - Form with client-side validation
+  - Persistent form state
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Technical Highlights**
+  - Type-safe form validation (Zod + React Hook Form)
+  - Global state management (Zustand)
+  - Theme switching (next-themes)
+  - Accessible UI components
 
-## Deploy on Vercel
+## 🛠 Technologies Used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Category        | Technologies                          |
+|-----------------|---------------------------------------|
+| Framework       | Next.js 14 (App Router)               |
+| UI Library      | Shadcn UI                             |
+| Styling         | Tailwind CSS                          |
+| Form Handling   | React Hook Form + Zod                 |
+| State Management| Zustand                               |
+| Utilities       | next-themes, Geist font               |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js v18+
+- npm v9+ or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/project-name.git
+   cd project-name
+2. Install dependencies:
+    npm install
+    # or
+    yarn
+3. Start the development server:
+    npm run dev
+    # or
+    yarn dev
+4. Open http://localhost:3000 in your browser.
